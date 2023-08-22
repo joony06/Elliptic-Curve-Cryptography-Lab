@@ -3,7 +3,8 @@ const BOARDID = 'box'; // Insert your id here!
 JXG.Options.axis.strokeColor = 'black';
 const board = JXG.JSXGraph.initBoard(BOARDID, {
     boundingbox: [-20, 20, 20, -20],
-    axis: true
+    axis: true,
+    showCopyright: false
 });
 
 let a = board.create('slider', [[2, -5], [11, -5], [-20, 0, 20]], {name: 'a'});
