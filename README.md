@@ -2,6 +2,8 @@
 
 An elliptic curve can be written as a plane algebraic curve defined by an equation of the form
 
-$y^2 = x^3 + ax + b$
+$$y^2 = x^3 + ax + b$$
 
-/alpha
+Here, simply the two branches
+
+$$\pm \sqrt y^2 = x^3 + ax +b$$
