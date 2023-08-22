@@ -6,4 +6,4 @@ $$y^2 = x^3 + ax + b$$
 
 Here, simply the two branches
 
-$$\pm \sqrt y^2 = x^3 + ax +b$$
+$$\pm \sqrty^2 = x^3 + ax +b$$
