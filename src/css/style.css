@@ -11,3 +11,14 @@ a{
 a:hover{
     color: grey;
 }
+
+button {
+    color: black;
+    font-size: 31px;
+    font-family: sans-serif;
+    margin: 1.5px;
+}
+
+button:hover {
+    color: grey;
+}
