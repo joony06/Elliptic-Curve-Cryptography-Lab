@@ -4,6 +4,7 @@ JXG.Options.axis.strokeColor = 'black';
 const board = JXG.JSXGraph.initBoard(BOARDID, {
     boundingbox: [-20, 20, 20, -20],
     axis: true,
+    grid: true,
     showCopyright: false
 });
 
