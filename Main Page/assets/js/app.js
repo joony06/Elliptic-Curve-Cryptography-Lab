@@ -15,7 +15,7 @@ function fetchTitle(name) {
     })
 }
 
-
+fetchPage("Joon's Lab");
 
 
 /* if(location.hash){

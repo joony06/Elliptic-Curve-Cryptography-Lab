@@ -25,7 +25,7 @@
 								<p>Implementatoin of SEIR model in JS</p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
-								<a href="#!ECC" class="image fit thumb"><img src="images/thumbs/ECC.jpeg" alt="" /></a>
+								<a href="#!ECC" onclick="fetchPage('ECC')" class="image fit thumb"><img src="images/thumbs/ECC.jpeg" alt="" /></a>
 								<h3>Elliptic Curve Cryptography</h3>
 								<p>Implementatoin of ECC in JS</p>
 							</article>
