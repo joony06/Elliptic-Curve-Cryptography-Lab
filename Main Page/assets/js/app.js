@@ -7,7 +7,7 @@ function fetchPage(name) {
     });
 }
 
-fetchPage("./data/Joon's Lab");
+fetchPage("./Joon's Lab");
 /* if(location.hash){
     fetchPage(location.hash.substring(2));
 } else {
