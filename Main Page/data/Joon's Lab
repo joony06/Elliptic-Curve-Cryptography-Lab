@@ -30,17 +30,17 @@
 								<p>Implementatoin of ECC in JS</p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
-								<a id="SSGPage" onclick="location.href='coming-soon--36th-stduent-self-government.repl.co/'" class="image fit thumb"><img src="images/thumbs/SSGPage1.png" alt="" /></a>
+								<a id="SSGPage" href="https://coming-soon--36th-stduent-self-government.repl.co/" class="image fit thumb"><img src="images/thumbs/SSGPage1.png" alt="" /></a>
 								<h3>Hanil 36th Student Self-Governemnet</h3>
 								<p>Student Self-Government Home Page.</p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
-								<a id="Emailjs" onclick="fetchPage('Emailjs')" class="image fit thumb"><img src="images/thumbs/Emailjs.jpeg" alt="" /></a>
+								<a id="Emailjs" href="https://email-js-test.backblue52.repl.co" class="image fit thumb"><img src="images/thumbs/Emailjs.jpeg" alt="" /></a>
 								<h3>Emailjs Lab</h3>
 								<p>Implementatoin of "Contact US" with Emailjs</p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
-								<a id="Joyuri" onclick="fetchPage('Joyuri')" class="image fit thumb"><img src="images/thumbs/Joyuri2.jpeg" alt="" /></a>
+								<a id="Joyuri" href="https://cafe.daum.net/JOYURI.offcl" class="image fit thumb"><img src="images/thumbs/Joyuri2.jpeg" alt="" /></a>
 								<h3>Jo Yuri</h3>
 								<p>Jo Yuri Fancafe</p>
 							</article>
