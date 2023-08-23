@@ -1,17 +1,31 @@
 function fetchPage(name) {
     fetch(name).then(function(response) {
         response.text().then(function(text){
-            document.querySelector('#two').innerHTML = text;
+            document.querySelector('#main').innerHTML = text;
+
         })
     });
 }
 
-if(location.hash){
+function fetchTitle(name) {
+    fetch(name).then(function(response) {
+        response.text().then(function(text) {
+            document.querySelector('#title').innerHTML = text;
+        })
+    })
+}
+
+
+
+
+/* if(location.hash){
     fetchPage(location.hash.substring(2));
 } else {
     fetchPage('welcom');
 }
+*/
 
+/*
 fetchPage('list').then(function(response) {
     response.text().then(function(text) {
         let items = text.split(',');
@@ -26,4 +40,4 @@ fetchPage('list').then(function(response) {
         }
         document.querySelector('#nav').innerHTML = tags;
     })
-});
+}); */
