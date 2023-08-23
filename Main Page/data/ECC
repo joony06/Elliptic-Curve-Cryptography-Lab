@@ -2,7 +2,7 @@
 				<!-- One -->
 					<section id="one">
 						<header class="major">
-							<h2><a href="../main.html" id="title">ECC</a></h2> 
+							<h2><a href="./main.html" id="title">ECC</a></h2> 
 						</header>
 						<p id="text">Implementatoin of Elliptic Curve Cryptography in JS</p>
 						<ul class="actions">
@@ -18,6 +18,26 @@
                     </ul>
 
 					<script src="../ECC/js/index.js"></script>
+					<script>
+						const BOARDID = 'box'; // Insert your id here!
+							JXG.Options.axis.strokeColor = 'black';
+							const board = JXG.JSXGraph.initBoard(BOARDID, {
+								boundingbox: [-20, 20, 20, -20],
+								axis: true,
+								grid: true,
+								showCopyright: false
+							});
+
+						let a = board.create('slider', [[2, -5], [11, -5], [-20, 0, 20]], {name: 'a'});
+						let b = board.create('slider', [[2, -7], [11, -7], [-20, 17, 20]], {name: 'b'});
+
+						let c1 = board.create('functiongraph', [function(x) {
+							return Math.sqrt(x * x * x + a.Value() * x + b.Value());
+						}], {strokeWidth: 3, strokeColor: 'black'});
+						let c2 = board.create('functiongraph', [function(x) {
+							return -Math.sqrt(x * x * x + a.Value() * x + b.Value());
+						}], {strokeWidth: 3, strokeColor: 'black'});
+					</script>
 				<!-- Two -->
 				<!--	<section id="two">
 						<h2>Recent Work</h2>
