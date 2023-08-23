@@ -17,6 +17,7 @@
                         <li><a href="../main.html" class="button">Home</a></li>
                     </ul>
 
+					<script src="../ECC/js/index.js"></script>
 				<!-- Two -->
 				<!--	<section id="two">
 						<h2>Recent Work</h2>
