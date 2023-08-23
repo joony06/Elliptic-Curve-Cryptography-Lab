@@ -20,13 +20,13 @@
 
 					<script>
 						board = JXG.JSXGraph.initBoard('jxgbox', {
-						boundingbox: [-5, 105, 105, -5],
+						boundingbox: [-50, 50, 50, -50],
 						axis: true,
 						grid: false,
 						showCopyright: false
 					});
 
-					beta_slider = board.createElement('slider', [
+					beta_slider = board.create('slider', [
 						[10.0, 95.5],
 						[40.0, 95.9],
 						[0.0, 0.75, 1.0]
@@ -36,11 +36,11 @@
 						fillColor: 'black'
 					});
 
-					beta_text = board.createElement('text', [10, 92.5, "beta"], {
+					beta_text = board.create('text', [10, 92.5, "beta"], {
 						fixed: true
 					});
 
-					gamma_slider = board.createElement('slider', [
+					gamma_slider = board.create('slider', [
 						[60.0, 95.5],
 						[90.0, 95.5],
 						[0.0, 0.25, 1.0]
@@ -50,23 +50,23 @@
 						fillColor: 'black'
 					});
 
-					gamma_text = board.createElement('text', [60, 92.5, "gamma"], {
+					gamma_text = board.create('text', [60, 92.5, "gamma"], {
 						fixed: true
 					});
 
-					startSusceptible = board.createElement('glider', [0, 95, board.defaultAxes.y], {
+					startSusceptible = board.create('glider', [0, 95, board.defaultAxes.y], {
 						name: 'Susceptible',
 						strokeColor: 'blue',
 						fillColor: 'blue'
 					});
 
-					startInfected = board.createElement('glider', [0, 5, board.defaultAxes.y], {
+					startInfected = board.create('glider', [0, 5, board.defaultAxes.y], {
 						name: 'Infected',
 						strokeColor: 'red',
 						fillColor: 'red'
 					});
 
-					startRecovered = board.createElement('glider', [0, 0, board.defaultAxes.y], {
+					startRecovered = board.create('glider', [0, 0, board.defaultAxes.y], {
 						name: 'Recovered',
 						strokeColor: 'green',
 						fillColor: 'green'
@@ -135,7 +135,7 @@
 						t[i] = data[i][3];
 					}
 
-					g3 = board.createElement('curve', [t, dataSusceptible], {
+					g3 = board.create('curve', [t, dataSusceptible], {
 						strokeColor: 'blue',
 						strokeWidth: '2px'
 					});
@@ -150,7 +150,7 @@
 						}
 					};
 
-					g4 = board.createElement('curve', [t, dataInfected], {
+					g4 = board.create('curve', [t, dataInfected], {
 						strokeColor: 'red',
 						strokeWidth: '2px'
 					});
@@ -165,7 +165,7 @@
 						}
 					};
 
-					g5 = board.createElement('curve', [t, dataRecovered], {
+					g5 = board.create('curve', [t, dataRecovered], {
 						strokeColor: 'green',
 						strokeWidth: '2px'
 					});
