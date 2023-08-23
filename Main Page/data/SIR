@@ -14,7 +14,7 @@
 					<script src="index.js"></script>
 
                     <ul class="actions">
-                        <li><a href="../main.html" class="button">Home</a></li>
+                        <li><a href="./main.html" class="button">Home</a></li>
                     </ul>
 
 
