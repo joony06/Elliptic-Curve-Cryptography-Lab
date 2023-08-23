@@ -1,9 +1,3 @@
-fetch("./data/Joon's Lab").then(function(response) {
-    response.text().then(function(text) {
-        document.querySelector('#main').innerHTML = text;
-        })
-})
-
 function fetchPage(name) {
     fetch(`./data/${name}`).then(function(response) {
         response.text().then(function(text){
@@ -13,16 +7,7 @@ function fetchPage(name) {
     });
 }
 
-function fetchTitle(name) {
-    fetch(name).then(function(response) {
-        response.text().then(function(text) {
-            document.querySelector('#title').innerHTML = text;
-        })
-    })
-}
-
-
-
+fetchPage("./data/Joon's Lab");
 /* if(location.hash){
     fetchPage(location.hash.substring(2));
 } else {
