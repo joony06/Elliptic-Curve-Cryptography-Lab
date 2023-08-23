@@ -4,7 +4,8 @@
 						<header class="major">
 							<h2><a href="./main.html" id="title">Joon's Lab</a></h2>
 						</header>
-						<p id="text">Looking around my project in here!</p>
+						<p id="text">Hi! I'm PAi, I'm a student interested in Web Dev, InfoSec, etc.<br>
+									Here is my laboratory(actually more like a blog). Take a look at my project freely!</p>
 						<ul class="actions">
 							<!-- <li><a href="#" class="button">Learn More</a></li> -->
 						</ul>
