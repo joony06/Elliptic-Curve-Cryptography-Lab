@@ -1,3 +1,9 @@
+fetch("Joon's Lab").then(function(response) {
+    response.text().then(function(text) {
+        document.querySelector('#main').innerHTML = text;
+    })
+})
+
 function fetchPage(name) {
     fetch(name).then(function(response) {
         response.text().then(function(text){
@@ -15,7 +21,6 @@ function fetchTitle(name) {
     })
 }
 
-fetchPage("Joon's Lab");
 
 
 /* if(location.hash){
