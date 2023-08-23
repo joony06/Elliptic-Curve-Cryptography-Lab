@@ -1,5 +1,11 @@
+fetch("./data/Joon's Lab").then(function(response) {
+    response.text().then(function(text) {
+        document.querySelector('#main').innerHTML = text;
+        })
+})
+
 function fetchPage(name) {
-    fetch(name).then(function(response) {
+    fetch(`./data/${name}`).then(function(response) {
         response.text().then(function(text){
             document.querySelector('#main').innerHTML = text;
 
