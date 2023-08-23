@@ -2,7 +2,7 @@
 				<!-- One -->
 					<section id="one">
 						<header class="major">
-							<h2><a href="#!ECC" id="title">ECC</a></h2> 
+							<h2><a href="../main.html" id="title">ECC</a></h2> 
 						</header>
 						<p id="text">Implementatoin of Elliptic Curve Cryptography in JS</p>
 						<ul class="actions">
@@ -14,7 +14,7 @@
 
 
                     <ul class="actions">
-                        <li><a href="./main.html#!ECC" class="button">Go back</a></li>
+                        <li><a href="./main.html" class="button">Go back</a></li>
                     </ul>
 
 					<script src="../ECC/js/index.js"></script>
