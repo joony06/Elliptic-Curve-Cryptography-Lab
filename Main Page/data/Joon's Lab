@@ -30,7 +30,7 @@
 								<p>Implementatoin of ECC in JS</p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
-								<a id="SSGPage" onclick="fetchPage('SSGCafe')" class="image fit thumb"><img src="images/thumbs/SSGPage1.png" alt="" /></a>
+								<a id="SSGPage" onclick="location.href='coming-soon--36th-stduent-self-government.repl.co/'" class="image fit thumb"><img src="images/thumbs/SSGPage1.png" alt="" /></a>
 								<h3>Hanil 36th Student Self-Governemnet</h3>
 								<p>Student Self-Government Home Page.</p>
 							</article>
