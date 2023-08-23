@@ -2,7 +2,7 @@
 				<!-- One -->
 					<section id="one">
 						<header class="major">
-							<h2><a href="../main.html" id="title">Joon's Lab</a></h2>
+							<h2><a href="./main.html" id="title">Joon's Lab</a></h2>
 						</header>
 						<p id="text">Looking around my project in here!</p>
 						<ul class="actions">
@@ -15,17 +15,17 @@
 						<h2>Recent Work</h2>
 						<div class="row">
 							<article class="col-6 col-12-xsmall work-item">
-								<a id="SIR" onclick="fetchPage('SIR')" class="image fit thumb"><img src="images/thumbs/SIR.jpeg" alt="" /></a>
+								<a id="SIR" href="#!SIR" onclick="fetchPage('SIR')" class="image fit thumb"><img src="images/thumbs/SIR.jpeg" alt="" /></a>
 								<h3>SIR Model</h3>
 								<p>Implementatoin of SIR model in JS</p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
-								<a id="SEIR" onclick="fetchPage('SEIR')" class="image fit thumb"><img src="images/thumbs/SEIR.png" alt="" /></a>
+								<a id="SEIR" href="#!SEIR" onclick="fetchPage('SEIR')" class="image fit thumb"><img src="images/thumbs/SEIR.png" alt="" /></a>
 								<h3>SEIR Model</h3>
 								<p>Implementatoin of SEIR model in JS</p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
-								<a id="ECC" onclick="fetchPage('ECC')" class="image fit thumb"><img src="images/thumbs/ECC.jpeg" alt="" /></a>
+								<a id="ECC" href="#!ECC" onclick="fetchPage('ECC')" class="image fit thumb"><img src="images/thumbs/ECC.jpeg" alt="" /></a>
 								<h3>Elliptic Curve Cryptography</h3>
 								<p>Implementatoin of ECC in JS</p>
 							</article>

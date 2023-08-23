@@ -14,7 +14,7 @@
 
 
                     <ul class="actions">
-                        <li><a href="./main.html" class="button">Go back</a></li>
+                        <li><a href="#ECC" class="button">Go back</a></li>
                     </ul>
 
 					<script src="../ECC/js/index.js"></script>
