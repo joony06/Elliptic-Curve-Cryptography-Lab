@@ -14,7 +14,7 @@
 					<script src="index.js"></script>
 
                     <ul class="actions">
-                        <li><a href="./main.html#SIR" class="button">Go back</a></li>
+                        <li><a href="./main.html" class="button">Go back</a></li>
                     </ul>
 
 
