@@ -15,12 +15,12 @@
 						<h2>Recent Work</h2>
 						<div class="row">
 							<article class="col-6 col-12-xsmall work-item">
-								<a id="SIR" class="image fit thumb"><img src="images/thumbs/SIR.jpeg" alt="" /></a>
+								<a id="SIR" onclick="fetchPage('SIR')" class="image fit thumb"><img src="images/thumbs/SIR.jpeg" alt="" /></a>
 								<h3>SIR Model</h3>
 								<p>Implementatoin of SIR model in JS</p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
-								<a id="SEIR" class="image fit thumb"><img src="images/thumbs/SEIR.png" alt="" /></a>
+								<a id="SEIR" onclick="fetchPage('SEIR')" class="image fit thumb"><img src="images/thumbs/SEIR.png" alt="" /></a>
 								<h3>SEIR Model</h3>
 								<p>Implementatoin of SEIR model in JS</p>
 							</article>
@@ -30,17 +30,17 @@
 								<p>Implementatoin of ECC in JS</p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
-								<a id="SSGPage" class="image fit thumb"><img src="images/thumbs/SSGPage1.png" alt="" /></a>
+								<a id="SSGPage" onclick="fetchPage('SSGCafe')" class="image fit thumb"><img src="images/thumbs/SSGPage1.png" alt="" /></a>
 								<h3>Hanil 36th Student Self-Governemnet</h3>
 								<p>Student Self-Government Home Page.</p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
-								<a id="Emailjs" class="image fit thumb"><img src="images/thumbs/Emailjs.jpeg" alt="" /></a>
+								<a id="Emailjs" onclick="fetchPage('Emailjs')" class="image fit thumb"><img src="images/thumbs/Emailjs.jpeg" alt="" /></a>
 								<h3>Emailjs Lab</h3>
 								<p>Implementatoin of "Contact US" with Emailjs</p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/06.jpg" class="image fit thumb"><img src="images/thumbs/Joyuri2.jpeg" alt="" /></a>
+								<a id="Joyuri" onclick="fetchPage('Joyuri')" class="image fit thumb"><img src="images/thumbs/Joyuri2.jpeg" alt="" /></a>
 								<h3>Jo Yuri</h3>
 								<p>Jo Yuri Fancafe</p>
 							</article>
@@ -64,7 +64,7 @@
 									</div>
 								</form>
 								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
+									<li><input type="submit" value="Not working yet" /></li>
 								</ul>
 							</div>
 							<div class="col-4 col-12-small">

@@ -30,7 +30,6 @@ function fetchTitle(name) {
 }
 */
 
-/*
 fetchPage('list').then(function(response) {
     response.text().then(function(text) {
         let items = text.split(',');
@@ -45,4 +44,4 @@ fetchPage('list').then(function(response) {
         }
         document.querySelector('#nav').innerHTML = tags;
     })
-}); */
+}); 
