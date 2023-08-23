@@ -30,7 +30,7 @@
 
 		<!-- Main -->
 			<div id="main">
-                Test 3
+                Test 4
 			</div>
 
 
@@ -58,5 +58,12 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/app.js"></script>
+			<script>
+				fetch("./data/Joon's Lab").then(function(response) {
+					response.text().then(function(text) {
+        				document.querySelector('#main').innerHTML = text;
+   					 })
+				})
+			</script>
 	</body>
 </html>

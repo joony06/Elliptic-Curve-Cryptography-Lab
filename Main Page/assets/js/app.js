@@ -1,9 +1,3 @@
-fetch("https://joony06.github.io/Joon-Lab/Main%20Page/data/Joon's Lab").then(function(response) {
-    response.text().then(function(text) {
-        document.querySelector('#main').innerHTML = text;
-    })
-})
-
 function fetchPage(name) {
     fetch(name).then(function(response) {
         response.text().then(function(text){
