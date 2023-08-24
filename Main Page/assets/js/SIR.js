@@ -170,6 +170,6 @@ function start() {
 }
 
 
-if(location.hash == "SIR") {
+if(location.hash.subtring(1) == "SIR") {
     start();
 }
