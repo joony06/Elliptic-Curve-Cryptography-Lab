@@ -169,7 +169,8 @@ function start() {
   };
 }
 
-
-if(location.hash.substring(1) == "SIR") {
+window.addEventListener("hashchange", function () {
+  if (location.hash.substring(1) == "SIR") {
     start();
-}
+  }
+});
