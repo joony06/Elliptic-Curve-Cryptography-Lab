@@ -1,6 +1,6 @@
 function start() {
   board = JXG.JSXGraph.initBoard("jxgbox", {
-    boundingbox: [-50, 50, 50, -50],
+    boundingbox: [-5, 100, 100, -5],
     axis: true,
     grid: false,
     showCopyright: false,
