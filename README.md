@@ -8,7 +8,7 @@ Implementation of SIR model in JS
 
 --------------
 
-## 2. SERI
+## 2. SEIR
 
 Implementation of SEIR model in JS
 
